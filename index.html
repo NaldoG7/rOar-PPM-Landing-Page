@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcel-Inspired Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007aff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>Welcome to Your Dashboard</header>
+  <div class="container">
+    <div class="card">
+      <h3>Project Manager Dashboard 1</h3>
+      <p>Access your key metrics and project views.</p>
+      <a href="#" class="button">Go to Dashboard</a>
+    </div>
+
+    <div class="card">
+      <h3>Project Manager Dashboard 2</h3>
+      <p>Manage team tasks, timelines, and milestones.</p>
+      <a href="#" class="button">Go to Dashboard</a>
+    </div>
+
+    <div class="card">
+      <h3>Weather</h3>
+      <p>Location: New York, NY<br />Condition: Sunny<br />Temp: 75°F</p>
+    </div>
+
+    <div class="card">
+      <h3>Publicis News</h3>
+      <ul>
+        <li><strong>Campaign A</strong> launched globally this week.</li>
+        <li>New internal platform tools are rolling out in Q3.</li>
+        <li>CEO to speak at Cannes Lions 2025.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Quote of the Day</h3>
+      <blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill</blockquote>
+    </div>
+  </div>
+</body>
+</html>
